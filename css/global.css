@@ -1,0 +1,33 @@
+body {
+  font-family: "Fira Sans", Arial, Helvetica, sans-serif;
+  margin: 0rem;
+  background: #fbebf8;
+  color: var(--color05);
+  margin-bottom: 62.5rem;
+}
+
+h1, h2, h3, p {
+  margin: 0rem;
+}
+
+ul {
+  margin: 0rem;
+  padding: 0rem;
+  list-style: none;
+}
+
+.subtitulo {
+  font-size: 8rem;
+  line-height: 1;
+  text-transform: uppercase;
+  word-break: break-all; /*quebrar palavra*/
+  max-width: 3ch; /*quant de caracteres*/
+}
+
+@media (max-width: 50rem) {
+  .subtitulo {
+    font-size: 3rem;
+    text-transform: capitalize;  /*aumenta só a primeira letra*/
+    max-width: initial;  /*volta ao tamanho inicial*/
+  }
+}

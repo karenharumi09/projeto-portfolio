@@ -1,0 +1,40 @@
+.introducao {
+  max-width: 75rem;
+  padding: 2.5rem 1.25rem;
+  margin: 0 auto;
+  display: grid;  
+  grid-template-columns: 1fr 2fr; /*total de colunas no grid*/
+  gap: 3rem;
+  align-items: center;
+}
+
+.introducao h1 {
+  font-size: 4.5rem;
+  line-height: 1.125;
+  margin-bottom: 1.875rem;
+}
+
+@media (max-width: 62.5rem) {
+  .introducao h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 50rem) {
+  .introducao {
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+  }
+  .introducao h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 25rem) {
+  .introducao {
+    grid-template-columns: 1fr;
+  }
+  .introducao img {
+    display: none;
+  }
+}

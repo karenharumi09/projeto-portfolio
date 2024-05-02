@@ -1,0 +1,17 @@
+@import './global.css';
+@import './header.css';
+@import './introducao.css';
+@import './experiencia.css';
+@import './formacao.css';
+@import './footer.css';
+
+
+:root{
+  --color01: #ae4b71;
+  --color02: #c68ea3;
+  --color03: #f8c6d9;
+  --color04: #d03c75;
+  --color05: #d65486;
+  --color06: #f5f5f5;
+  --color07: #fbebf8;
+}
