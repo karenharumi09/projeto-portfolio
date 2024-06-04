@@ -21,9 +21,9 @@
 }
 
 @media (max-width: 50rem) {
-  .introducao {
-    grid-template-columns: 1fr 1fr;
-    gap: 2.5rem;
+  .introducao-info {
+   display: flex;
+   flex-wrap: wrap;
   }
   .introducao h1 {
     font-size: 2rem;
@@ -38,3 +38,13 @@
     display: none;
   }
 }
+
+
+
+
+
+
+
+
+
+
